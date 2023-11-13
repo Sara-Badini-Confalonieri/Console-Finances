@@ -101,5 +101,14 @@ for (var i  = 0; i < finances.length; i++){
 
 }
 
-console.log ('Total: ' + totalAmount);
+console.log ('Total: $' + totalAmount);
 
+var totalChange = 0;
+var averageChange = 0;
+for (var i = 1; i < finances.length; i++) {
+  var change = finances[i][1] - finances[i - 1][1];
+  totalChange += change;
+}
+averageChange = (totalChange / (finances.length - 1)).toFixed(2);
+
+console.log('Average Change: ' + averageChange);
