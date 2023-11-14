@@ -19,7 +19,7 @@ https://sara-badini-confalonieri.github.io/console-finances/
 To see the Javascript file in action, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows) and select the console tab.
 
 
-![alt text](images/screenshot.PNG)
+![alt text](images/screenshot.png)
 
 
 ## Credits
